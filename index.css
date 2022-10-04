@@ -16,11 +16,13 @@ main{
 }
 input{
 
-    background-color: #365314;
+    background-color:#1c1917;
+    border-radius: 2rem;
     margin: auto;
     display: BLOCK;
     padding: 0.4rem;
     font-weight: 700;
+    border-color: #65a30d;
     
 }
 label{
