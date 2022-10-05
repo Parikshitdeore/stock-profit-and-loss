@@ -7,11 +7,16 @@ var output=document.querySelector("#output")
 button.addEventListener("click",clickHandler)
 
 function clickHandler(){
+
    var ip = Number(initial.value)
    var qty=Number(quantity.value)
    var curr=Number(current.value)
-
+if(ip>0&&qty>0&&curr>0){
    calculateProfilOrLoss(ip,qty,curr)
+}
+else{
+    alert("Enter proper input")
+}
 }
 
 function calculateProfilOrLoss(initial,quantity,current){
