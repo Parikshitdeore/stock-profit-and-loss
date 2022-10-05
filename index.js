@@ -24,7 +24,6 @@ if(initial>current){
 else if(initial<current){
     var profit = (current-initial)*quantity
     var profitPercentage=(profit/initial)*100
-    console.log(profitPercentage)
     showText("Yayy, the profit is "+profit+" and the profit percentage is "+ profitPercentage.toFixed(2)+"%")
 }
 else{
